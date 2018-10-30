@@ -53,6 +53,7 @@ class Algorithms:
         # make a call to the main algorithms so that it returns a PATH with these points.
         greenPoints = [2,3,4] ## for simplicity
         greenPoints = self.main_algorithm(greenPoints,2)
+        return greenPoints
 
     def roadCondition(self,toLocation,fromLocation):
         print("getting road condition information")
@@ -61,6 +62,7 @@ class Algorithms:
         # analyse the severity. build a model.
         badRoads = [1,5,6] ## for simplicity
         goodRoad = self.main_algorithm(badRoads,3)
+        return goodRoad
 
 
 class API():
