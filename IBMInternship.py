@@ -11,7 +11,6 @@ PROCESS:
 3. create a model class. this is our machine learning model that will learn from the user annotations.
 4. then send this model to the generator class to further generate jokes of the user preferences.
 
-YAY!
 """
 class Generator():
     def __init__(self):
