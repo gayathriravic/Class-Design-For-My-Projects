@@ -1,1 +1,1 @@
-# Class-Design-For-My-Projects
+Class design for my projects
